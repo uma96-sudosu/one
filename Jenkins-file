@@ -30,7 +30,7 @@ pipeline {
             steps {
                 deploy adapters: [tomcat9(
                     credentialsId: 'tomcat',
-                    url: 'http://54.197.181.140:8080'
+                    url: 'http://18.212.255.3:8080'
                 )],
                 contextPath: '/uma',
                 war: '**/*.war'
