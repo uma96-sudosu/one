@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en"> 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -136,10 +135,12 @@
 
         .icon-btn {
             background: transparent;
+            color: var(--primary);
             border: 0;
             cursor: pointer;
             color: var(--primary);
             font-size: 16px;
+            color: var(--primary);
         }
 
         .header-actions {
@@ -509,6 +510,7 @@
             text-align: center
         }
     </style>
+   
 </head>
 
 <body>
@@ -570,7 +572,7 @@
         <!-- Hero -->
         <section class="hero" role="img" aria-label="Hero banner">
             <div class="container">
-                <h1>New Wedding Collection — Premium Picks</h1>
+                <h1>New Winter Collection — Premium Picks</h1>
                 <p>Discover the latest trends in fashion, technology and accessories — curated just for you. Enjoy limited-time deals and free shipping on selected items.</p>
                 <div>
                     <button class="btn btn-primary" id="shopNow">Shop Now <em class="fas fa-arrow-right"></em></button>
@@ -720,6 +722,7 @@
     </footer>
 
     <script>
+    
         // --- Sample data (can be replaced by server-side data or API) ---
         const CATEGORIES = [{
                 id: 'phones',
@@ -1025,4 +1028,4 @@
     </script>
 </body>
 
-</html>
+</html> 
